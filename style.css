@@ -1,0 +1,24 @@
+.circle {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 36px;
+    color:#d9f2fc;
+    /*animation-direction: alternate;*/
+    padding-top:0.001rem;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes logo {
+    0%   {background-color:#202020; left:200px; top:200px;}
+    50%  {background-color:#505050; left:600px; top:200px;}
+    75%   {background-color:#b6b3b3; left:200px; top:600px;}
+    100%   {background-color:#202020; left:600px; top:600px;} }
+
+  
+    
